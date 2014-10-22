@@ -14,21 +14,40 @@ h1 {
 	padding-bottom: 5px;
 	font-weight: bold;
 	font-family: "Lucida grande";
-	text-align: center;}
+	text-align: center;
+	font-size: 24px;}
 
-div {
+.mebox {
 	background-color: #E0EFF1;
 	color: DarkSlateGray;
-	padding-top: 5px;
-	padding-bottom: 5px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	text-align: left;
+	border-style: groove;
+	border-color: #7DB4B5;
+	margin-bottom: 1px;
+	width: 48%;
+	float: left;
+	padding-left: 1px;
+	padding-right: 1px;
+	min-width: 320px;
+	min-height: 650px;}
+
+.infobox {
+	background-color: #E0EFF1;
+	color: DarkSlateGray;
+	padding-top: 1px;
+	padding-bottom: 1px;
 	text-align: left;
 	border-style: groove;
 	border-color: #7DB4B5;
 	margin-bottom: 10px;
-	width: 49%;
-	float: left;
-	padding-left: 10px;
-	padding-right: 10px;}
+	width: 48%;
+	float: right;
+	padding-left: 1px;
+	padding-right: 1px;
+	min-width: 320px;
+	min-height: 650px;}
 
 p.subhead {
 	background-color: #7DB4B5;
