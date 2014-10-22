@@ -1,27 +1,54 @@
 body {
-	background-color: #F4FCE8;
+	background-color: #FFFFFF;
 	color: white;
-	padding: 5px;
-	font-family: "Lucida grande", Lucida Grande, sans-serif;}
+	font-family: "Lucida grande", Lucida Grande, sans-serif;
+	margin: 10px;
+	vertical-align: center;
+	text-align: center;
+}
 
 h1 {
-	background-color: #87D69B;
-	color: #4E9689;
+	background-color: #7DB4B5;
+	color: #000000;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	font-weight: bold;
-	font-family: "Lucida grande";}
+	font-family: "Lucida grande";
+	text-align: center;}
 
-h3 {
-	background-color: #87D69B;
-	color: #4E9689;
+div {
+	background-color: #E0EFF1;
+	color: DarkSlateGray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: left;
+	border-style: groove;
+	border-color: #7DB4B5;
+	margin-bottom: 10px;
+	width: 49%;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;}
+
+p.subhead {
+	background-color: #7DB4B5;
+	color: #000000;
+	padding-top: 5px;
+	padding-bottom: 5px;
 	font-weight: bold;
-	font-family: "Lucida grande";}
+	font-family: "Lucida grande";
+	text-align: center;}
 
 p.main {
 	background-color: #7ED0D6;
-	color: "DarkSlateGray";}
+	color: DarkSlateGray;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 75%;
+	width: 75%;}
 
 :link {
-	color:"DimGray";}
-	
+	color: black;}
+
 :visited {
-	color:"DimGray";}
+	color: black;}
