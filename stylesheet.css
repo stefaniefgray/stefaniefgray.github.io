@@ -1,0 +1,27 @@
+body {
+	background-color: #F4FCE8;
+	color: white;
+	padding: 5px;
+	font-family: "Lucida grande", Lucida Grande, sans-serif;}
+
+h1 {
+	background-color: #87D69B;
+	color: #4E9689;
+	font-weight: bold;
+	font-family: "Lucida grande";}
+
+h3 {
+	background-color: #87D69B;
+	color: #4E9689;
+	font-weight: bold;
+	font-family: "Lucida grande";}
+
+p.main {
+	background-color: #7ED0D6;
+	color: "DarkSlateGray";}
+
+:link {
+	color:"DimGray";}
+	
+:visited {
+	color:"DimGray";}
