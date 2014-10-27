@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url('type/LeagueGothic-Regular.otf');
+  src: url('type/LeagueGothic-Regular.otf#iefix') format('embedded-opentype'),
+    url('type/LeagueGothic-Regular.woff') format('woff'),
+    url('type/LeagueGothic-Regular.ttf') format('truetype'),
+    url('type/LeagueGothic-Regular.svg#Lobster13Regular') format('svg');
+}
+
+h1 {
+  font-family: "LeagueGothic-Regular";
+  text-transform: uppercase;
+  }
+
+h3 {
+  font-family: "LeagueGothic-Regular";
+  text-transform: uppercase;
+  }
