@@ -24,7 +24,9 @@ body {
 }
 .main
 	{background-color: #DAC189;
-	font-family: "Futura";}
+	font-family: "Futura";
+	padding: 5px;
+	margin: 5px;}
 
 h1 {
   font-family: "chippewa-falls";
