@@ -1,18 +1,52 @@
+body {
+	background-color: #894200;
+}
+
+.header {
+    background-image: url('coffeebeans.jpg');
+    background-repeat: repeat;
+    vertical-align: bottom;
+    float: top;
+    padding: 50px;
+    margin: 0;}
+
+.nav
+	{background-color: #2C1901;
+	font-family: "chippewa-falls";
+	font-color: #DAC189;
+	text-align: center;
+    float: top;
+    font-size: 100%;
+    word-spacing: 100px;
+    vertical-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.main
+	{background-color: #DAC189;
+	font-family: "Futura";}
+
 h1 {
   font-family: "chippewa-falls";
-  color: blue;
+  color: #DAC189;
+  font-size: 300%;
+  text-align: center;
   }
 
 h3 {
   font-family: "chippewa-falls";
-  color: red;
+  color: #2C1901;
   }
 
 h4 {
   font-family: "chippewa-falls";
-  color: green;
+  color: #DAC189;
+  padding: 0;
+  margin: 0;
   }
 
 li {
 	display: inline;
+	padding: 0;
+    margin: 0;
 }
