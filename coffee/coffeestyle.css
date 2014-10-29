@@ -10,6 +10,14 @@ body {
     url('type/LeagueGothic-Regular.ttf') format('truetype'),
     url('type/LeagueGothic-Regular.svg') format('svg');}
 
+@font-face {
+  font-family: 'Lobster';
+  src: url('type/Lobster-Regular.otf');
+  src: url('type/Lobster-Regular.otf#iefix') format('embedded-opentype'),
+    url('type/Lobster-Regular.woff') format('woff'),
+    url('type/Lobster-Regular.ttf') format('truetype'),
+    url('type/Lobster-Regular.svg') format('svg');}
+
 #header {
     background-image: url('coffeebeans.jpg');
     background-repeat: repeat;
@@ -37,7 +45,7 @@ box-shadow:         inset 0px 0px 200px #000000;}
 
 .nav
   {background-color: #2C1901;
-  font-family: "Lobster";
+  font-family: "Garamond";
   font-color: #DAC189;
   text-align: center;
     font-size: 100%;
