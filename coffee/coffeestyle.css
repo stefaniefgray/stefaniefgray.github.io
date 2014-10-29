@@ -65,7 +65,7 @@ box-shadow:         inset 0px 0px 200px #000000;}
 
 #dream
   {font-style: italic;
-    font-family: "Lobster-regular";
+    font-family: "Lobster1.3-regular";
     width: 15%;
     margin:auto;
     position: relative;
@@ -103,7 +103,7 @@ box-shadow:         inset 0px 0px 200px #000000;}
 
 
 h1 {
-  font-family: "Lobster-regular";
+  font-family: "Lobster1.3-regular";
   color: #DAC189;
   font-size: 300%;
   text-align: center;
