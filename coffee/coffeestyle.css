@@ -1,32 +1,98 @@
 body {
-	background-color: #894200;
+  background-color: #FFFFFF;
 }
 
-.header {
+@font-face {
+  font-family: 'LeagueGothic';
+  src: url('type/LeagueGothic-Regular.otf');
+  src: url('type/LeagueGothic-Regular.otf#iefix') format('embedded-opentype'),
+    url('type/LeagueGothic-Regular.woff') format('woff'),
+    url('type/LeagueGothic-Regular.ttf') format('truetype'),
+    url('type/LeagueGothic-Regular.svg') format('svg');}
+
+#header {
     background-image: url('coffeebeans.jpg');
     background-repeat: repeat;
-    vertical-align: bottom;
+    height: 250px;
+    width:100%;
     float: top;
-    padding: 50px;
-    margin: 0;}
+    padding: 5px;
+    margin: 0;
+}
+.vignette {-webkit-box-shadow: inset 0px 0px 200px #000000;
+  -moz-box-shadow:    inset 0px 0px 200px #000000;
+box-shadow:         inset 0px 0px 200px #000000;}
+
+#left {
+  float:left;
+  width: 45%;
+  text-align: center;
+}
+
+#right {
+  float:right;
+  width: 45%;
+  text-align:center;
+}
 
 .nav
-	{background-color: #2C1901;
-	font-family: "chippewa-falls";
-	font-color: #DAC189;
-	text-align: center;
-    float: top;
+  {background-color: #2C1901;
+  font-family: "Lobster";
+  font-color: #DAC189;
+  text-align: center;
     font-size: 100%;
     word-spacing: 100px;
     vertical-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top:100px;
+    margin:auto;
+    z-index: 1;
+    padding:5px;
+    width:100%;
 }
 .main
-	{background-color: #DAC189;
-	font-family: "Futura";
-	padding: 5px;
-	margin: 5px;}
+  {background-color: #FFFFFF;
+  font-family: "Garamond";
+  padding: 5px;
+  margin: 5px;}
+
+#dream
+  {font-style: italic;
+    font-family: "Lobster-regular";
+    width: 15%;
+    margin:auto;
+    position: relative;
+    -ms-transform: rotate(-5deg); 
+    -webkit-transform: rotate(-5deg);
+    transform: rotate(-5deg);
+    padding:5px;
+  }
+
+#beans
+  {font-weight: lighter;
+  font-family: "LeagueGothic-Regular";
+  text-transform: uppercase;
+  border-top: 3px dotted;
+  width:15%;
+  margin: auto;
+  color: white;
+  font-weight:100;}
+
+#coffee
+  {
+  color:white;
+  font-family: "LeagueGothic-Regular";
+  text-transform: uppercase;
+  font-weight:100;}
+
+#footer{
+  background-color: #2C1901;
+  height:100px;
+  text-align:center;
+  vertical-align: center;
+  padding:20px;
+  clear:both;
+}
+
 
 h1 {
   font-family: "chippewa-falls";
@@ -36,7 +102,7 @@ h1 {
   }
 
 h3 {
-  font-family: "chippewa-falls";
+  font-family: "Helvetica";
   color: #2C1901;
   }
 
@@ -45,10 +111,18 @@ h4 {
   color: #DAC189;
   padding: 0;
   margin: 0;
+ font-weight: normal;
+}
   }
 
 li {
-	display: inline;
-	padding: 0;
+  display: inline;
+  padding: 0;
     margin: 0;
+}
+
+h5 {
+  font-family: "Garamond";
+  color: #DAC189;
+  font-weight:normal;
 }

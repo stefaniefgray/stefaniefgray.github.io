@@ -4,7 +4,7 @@
   src: url('type/LeagueGothic-Regular.otf#iefix') format('embedded-opentype'),
     url('type/LeagueGothic-Regular.woff') format('woff'),
     url('type/LeagueGothic-Regular.ttf') format('truetype'),
-    url('type/LeagueGothic-Regular.svg#Lobster13Regular') format('svg');
+    url('type/LeagueGothic-Regular.svg') format('svg');
 }
 
 h1 {
