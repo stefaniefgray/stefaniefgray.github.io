@@ -11,12 +11,12 @@ body {
     url('type/LeagueGothic-Regular.svg') format('svg');}
 
 @font-face {
-  font-family: 'Lobster';
-  src: url('type/Lobster-Regular.otf');
-  src: url('type/Lobster-Regular.otf#iefix') format('embedded-opentype'),
-    url('type/Lobster-Regular.woff') format('woff'),
-    url('type/Lobster-Regular.ttf') format('truetype'),
-    url('type/Lobster-Regular.svg') format('svg');}
+  font-family: 'Lobster_1.3';
+  src: url('type/Lobster_1.3.otf');
+  src: url('type/Lobster_1.3.otf#iefix') format('embedded-opentype'),
+    url('type/Lobster_1.3.woff') format('woff'),
+    url('type/Lobster_1.3.ttf') format('truetype'),
+    url('type/Lobster_1.3.svg') format('svg');}
 
 #header {
     background-image: url('coffeebeans.jpg');
@@ -65,7 +65,7 @@ box-shadow:         inset 0px 0px 200px #000000;}
 
 #dream
   {font-style: italic;
-    font-family: "Lobster1.3-regular";
+    font-family: "Lobster_1.3";
     width: 15%;
     margin:auto;
     position: relative;
