@@ -68,22 +68,22 @@ box-shadow:         inset 0px 0px 200px #000000;}
 #dream
   {font-style: italic;
     font-family: 'Cookie', cursive;
-    width: 15%;
-    margin:auto;
+    margin: auto;
     position: relative;
     -ms-transform: rotate(-5deg); 
     -webkit-transform: rotate(-5deg);
     transform: rotate(-5deg);
-    text-align:center;
+    text-align: center;
   }
 
 #beanscoffee
   {
   color: white;
-  font-family: "LeagueGothic-Regular","Impact",serif;
+  font-family: "LeagueGothic-Regular", "Impact", sans-serif;
   text-transform: uppercase;
+  position: relative;
   border-top: 3px dotted;
-  width:15%;
+  width:1em;
   margin: auto;
   font-weight:100;
   text-align: center;

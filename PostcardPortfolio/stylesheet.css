@@ -1,0 +1,15 @@
+#header {
+    float: top;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+}
+
+html { 
+  background: url(ocean_1.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
