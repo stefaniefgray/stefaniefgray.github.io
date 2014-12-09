@@ -15,7 +15,7 @@
 body {
 	font-family: 'Josefin Sans', sans-serif;
 	background-color: #68B5C1;
-	font-size:100%
+	font-size:1em;
 }
 
 #home {
@@ -44,6 +44,8 @@ body {
 	height: 100%;
 	width: 100%;
 	z-index: 99;
+	overflow: scroll;
+}
 
 }
 
@@ -608,6 +610,13 @@ line-height: 1.25em;
 color: #434343;
 }
 
+.li{
+text-align: justify;
+font-size: 1.25em;
+line-height: 1.25em;
+color: #434343;
+}
+
 .col-3-12 {
 }
 
@@ -732,7 +741,7 @@ font-size: 0.75em;
 	display: block;
 text-align: center;
 width: 100%;
-font-size: 0.75em;
+font-size: 1.25em;
 }
 
 .contactext {
