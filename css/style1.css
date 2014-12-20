@@ -16,7 +16,7 @@ nav.horizontal ul li{display: inline;}
 img{max-width:100%;}
 
 body {
-	background: #5AA9CE url(../images/bg3.jpg) no-repeat;
+	background: #5AA9CE url(../images/compbackground.jpg) no-repeat;
 	background-size: 100%;
 	background-size:cover;
 	background-attachment:fixed;
