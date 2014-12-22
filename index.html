@@ -42,7 +42,9 @@
 	<!-- Owl Carousel Assets -->
 	<link href="css/owl.carousel.css" rel="stylesheet" type='text/css' />
 	<link href="css/slider.css" rel="stylesheet" type='text/css' />
-	<link href="css/style1.css" rel="stylesheet" type='text/css' /><!-- Personal style goes here -->
+	<link href="css/style1.css" rel="stylesheet" type='text/css' />
+
+	<!-- Personal style goes here -->
     
 	<!-- Google Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Josefin+Sans:400,600' rel='stylesheet' type='text/css'>
@@ -117,7 +119,9 @@
 					
 					<div class="item">
 						<div class="carousel">
-					  	    <div class="group_2_img1 wow fadeInLeft" data-wow-duration="1200ms" data-wow-delay="300ms"><img src="images/img1.png" alt=""></div>
+					  	    <div class="group_2_img1 wow fadeInLeft" data-wow-duration="1200ms" data-wow-delay="300ms">
+					  	    	<img src="images/img1.png" alt="">
+		  					</div>
 							<div class="group_2_text2 wow fadeInRight" data-wow-duration="1200ms" data-wow-delay="300ms">
 								<div class="desc">
 									<h1>Location</h1>
@@ -135,9 +139,8 @@
 								<div class="desc">
 									<h1>Project Included</h1>
 									<h4>A lot of stuff</h4>
-								</div>
-								<div class="button_2">
-									<a href="#">Preview</a>
+								</div><a href="#">
+								<div class="button_2">Preview</a>
 								</div>
 							</div>
 								<div class="clearfix"></div>
@@ -290,25 +293,35 @@ What's next? Let's talk about it! I'll be taking my new skills to a company that
 
 				<ul> 
 					<li><h4>SEND TO MY INBOX</h4></li>
+					<form method="POST" name="contactform" action="contact-form-handler.php" enctype="text/plain">
 					<li class="name">
-						<input type="text" placeholder="Full name" class="form-control" required="">
+						<input type="text" name="name" placeholder="Full name" class="form-control" required="">
 						<div class="clearfix"></div>
 					</li> 
 					<li class="email">
-						<input type="email" placeholder="Email" class="form-control" required="">
+						<input type="email" name="email" placeholder="Email" class="form-control" required="">
 						<div class="clearfix"></div>
 					</li> 		
 					<li>
-						<input type="text" placeholder="Subject" class="form-control" required="">
+						<input type="subject" name="subject" placeholder="Subject" class="form-control" required="">
 						<div class="clearfix"></div>
 					</li> 
 					<li>
-						<textarea class="form-control" placeholder="Don't forget that kindness is all!"> Don't forget that kindness is all!</textarea>
+						<textarea name="message" class="form-control" placeholder="Spread kindness. As Beyonce said: 'You know I'm not gonna diss you on the Internet. 'Cause my mama taught me better than that.'" class="form-control"> Spread kindness. As Beyonce said: 'You know I'm not gonna diss you on the Internet. 'Cause my mama taught me better than that.'</textarea>
 						<div class="clearfix"></div>
 					</li> 
-					<div class="send"><a href="#">SEND</a></div>
+					<div class="send"><input type="submit" value="SEND"></a></div>
 				</ul>
 			</form>
+			<script language="JavaScript">
+			// Code for validating the form
+			// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+			// for details
+				var frmvalidator  = new Validator("contactform");
+				frmvalidator.addValidation("name","req","Please provide your name"); 
+				frmvalidator.addValidation("email","req","Please provide your email"); 
+				frmvalidator.addValidation("email","email","Please enter a valid email address"); 
+			</script>
 		</div><!-- col-md-6-->
 
 	 	<div class="clearfix"></div>
@@ -333,7 +346,7 @@ What's next? Let's talk about it! I'll be taking my new skills to a company that
 						<div class="footer-logo">
 						<a href="index.html"><img class="logo img-intext" src="images/logo.png" alt=""></a>
 						</div>
-						<p>Magnis modipsae voloratati andigen daepeditem quiate re porem que aut labor. Laceaque eictemperum quiae sitiorem rest non restibusaes maio es dem tumquam.</p>
+						<p></br>I'm Stef. I like helping people and building cool things.</p>
 					</div><!-- /.col -->
 					
 							<div class="col-md-3 col-sm-6 inner">
@@ -365,11 +378,11 @@ What's next? Let's talk about it! I'll be taking my new skills to a company that
 					
 							<div class="col-md-3 col-sm-6 inner">
 								<h4>Get In Touch</h4>
-								<p>Doloreiur quia commolu ptatemp dolupta oreprerum tibusam eumenis et consent accullignis dentibea autem inisita.</p>
+								<p>I'm here to help with your web development, data analysis, GIS, research or social media marketing needs.</p>
 								<ul class="contacts">
-									<li><i class="fa fa-map-marker"></i> Mountain View, CA 94043</li>
-									<li><i class="fa fa-phone"></i> +00 (123) 456 78 90</li>
-									<li><i class="fa fa-envelope-o"></i> <a href="#">info@domain.com</a></li>
+									<li><i class="fa fa-map-marker"></i> New York, NY</li>
+									<li><i class="fa fa-phone"></i> <a href="(347) 871-3408">(347) 871-3408</a></li>
+									<li><i class="fa fa-envelope-o"></i> <a href="mailto:stefanie.f.gray+thrusite@gmail.com">Email</a></li>
 								</ul><!-- /.contacts -->
 							</div><!-- /.col -->
 					
@@ -419,10 +432,6 @@ What's next? Let's talk about it! I'll be taking my new skills to a company that
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/bootstrap.js"></script>
 
-	<!-- Demo Examples -->
-    <script type="text/javascript" src="js/color_switcher.js"></script>
-	<!-- END Demo Examples -->
-
     <!--menu -->
 	<script type="text/javascript" src="js/flexy-menu.js"></script>
 	<!-- slider -->
@@ -440,6 +449,8 @@ What's next? Let's talk about it! I'll be taking my new skills to a company that
 	<script type="text/javascript" src="js/owl.carousel.js"></script>
 	<script type="text/javascript" src="js/wow.min.js"></script>
 
+	<!-- Email form -->
+	<script language="JavaScript" src="js/gen_validatorv31.js" type="text/javascript"></script>
 
 	<script type="text/javascript">
 	$(document).ready(function(){
