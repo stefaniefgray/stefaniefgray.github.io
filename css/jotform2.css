@@ -191,7 +191,6 @@ background-attachment: scroll;
 background-position: center top;
 }
 .form-line {
-margin-top: 12px;
 margin-bottom: 12px;
 }
 .form-line {
@@ -262,6 +261,8 @@ padding: 12px 0px 12px 0px;
 .form-textbox,
 .form-textarea {
 padding: 4px 3px 2px 3px;
+font-family: "Josefin Sans", sans-serif;
+font-size: 16px;
 }
 /*@textInputStyle: "ti-default";
 @textInputBorderWidth: -1;
@@ -454,4 +455,21 @@ background-color : #1abc9c!important;
 border : 1px solid #1abc9c!important;
 color : #fff!important;
 font-size: 16px;
+}.button {
+margin: 2em 0em;
+}.button a{
+border:1px solid #ccc!important;
+/*background-color: #6687a9;*/
+font-size: 1em;
+padding: 0.6em 2.2em;
+color:#333!important;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-o-border-radius: 5px;
+-moz-border-radius: 5px;
+}.button a:hover{
+background-color: #1abc9c;
+border:1px solid #1abc9c!important;
+color:#fff!important;
+text-decoration: none;
 }
