@@ -1,0 +1,457 @@
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans:light,lightitalic,normal,italic,bold,bolditalic";
+.form-all {
+font-family: "Josefin Sans", sans-serif;
+}
+.form-all {
+width: 690px;
+width: 100%;
+max-width: 690px;
+}
+.form-label-left,
+.form-label-right {
+width: 150px;
+}
+.form-label {
+white-space: normal;
+}
+.form-label.form-label-auto {
+display: inline-block;
+float: left;
+text-align: left;
+width: 150px;
+}
+.form-label-left {
+display: inline-block;
+white-space: normal;
+float: left;
+text-align: left;
+}
+.form-label-right {
+display: inline-block;
+white-space: normal;
+float: left;
+text-align: right;
+}
+.form-label-top {
+white-space: normal;
+display: block;
+float: none;
+text-align: left;
+}
+.form-all {
+font-size: 16px;
+}
+.form-label {
+font-weight: normal;
+font-size: 18px;
+}
+.supernova {
+background-color: none;
+background-color: #ffffff;
+}
+.supernova body {
+background-color: transparent;
+}
+/*
+@width30: (unit(@formWidth, px) + 60px);
+@width60: (unit(@formWidth, px)+ 120px);
+@width90: (unit(@formWidth, px)+ 180px);
+*/
+/* | */
+/* | */
+/* | */
+@media screen and (max-width: 480px) {
+.jotform-form {
+padding: 1em 0;
+}
+}
+/* | */
+/* | */
+@media screen and (min-width: 480px) and (max-width: 768px) {
+.jotform-form {
+padding: 1em 0;
+}
+}
+/* | */
+/* | */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.jotform-form {
+padding: 0.5em 0;
+}
+}
+/* | */
+/* | */
+@media screen and (min-width: 1024px) {
+.jotform-form {
+padding: 0.5em 0;
+}
+}
+/* | */
+.form-all {
+background-color: none;
+border: 1px solid transparent;
+}
+.form-all {
+color: #555555;
+}
+.form-header-group .form-header {
+color: #555555;
+}
+.form-header-group .form-subHeader {
+color: #6f6f6f;
+}
+.form-sub-label {
+color: #6f6f6f;
+}
+.form-label-top,
+.form-label-left,
+.form-label-right {
+color: #6f6f6f;
+}
+.form-checkbox-item label,
+.form-radio-item label {
+color: #555555;
+}
+.form-line.form-line-active {
+-webkit-transition-property: all;
+-moz-transition-property: all;
+-ms-transition-property: all;
+-o-transition-property: all;
+transition-property: all;
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+-ms-transition-duration: 0.3s;
+-o-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-timing-function: ease;
+-moz-transition-timing-function: ease;
+-ms-transition-timing-function: ease;
+-o-transition-timing-function: ease;
+transition-timing-function: ease;
+background-color: #F2F5F4;
+}
+/* ömer */
+.form-radio-item,
+.form-checkbox-item {
+padding-bottom: 0px !important;
+}
+.form-radio-item:last-child,
+.form-checkbox-item:last-child {
+padding-bottom: 0;
+}
+/* ömer */
+/*.ctrl-custom-size(@bgSize, @tickSize, @tickOffsetTop, @tickOffsetLeft, @radius) {input {
+display: none;
+}
+label {
+position: relative;
+margin-left: 0;
+}label:before {
+content: '';
+position: relative;
+display: inline-block;
+vertical-align: baseline;
+margin-right: 4px;
+.border-box();
+.rounded(@radius);width: @bgSize;
+height: @bgSize;
+}label:after {
+content: '';
+position: absolute;
+z-index: 10;
+display: inline-block;
+opacity: 0;top:@tickOffsetTop;
+left:@tickOffsetLeft;
+width: @tickSize;
+height: @tickSize;
+.rounded(@radius);
+}input:checked + label:after {
+opacity: 1;
+}}*/
+.form-single-column .form-checkbox-item,
+.form-single-column .form-radio-item {
+width: 100%;
+}
+.supernova {
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center top;
+background-repeat: repeat;
+}
+/* | */
+.form-all {
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center top;
+background-repeat: repeat;
+}
+.form-header-group {
+background-repeat: no-repeat;
+background-attachment: scroll;
+background-position: center top;
+}
+.form-line {
+margin-top: 12px;
+margin-bottom: 12px;
+}
+.form-line {
+padding: 12px 36px;
+}
+.form-all .qq-upload-button,
+.form-all .form-submit-button,
+.form-all .form-submit-reset,
+.form-all .form-submit-print {
+font-size: 1em;
+padding: 9px 15px;
+font-family: "Josefin Sans", sans-serif;
+font-size: 16px;
+font-weight: normal;
+}
+.form-all .form-pagebreak-back,
+.form-all .form-pagebreak-next {
+font-size: 1em;
+padding: 9px 15px;
+font-family: "Josefin Sans", sans-serif;
+font-size: 16px;
+font-weight: normal;
+}
+/*
+TODO: Significant improvement possibility:following import statement is not required in design mode,
+but it should be inside the exported css of current design, in the form itself
+when it is shown to people. Being of this here, causing re-drawn problems.
+we should find a way to only include this in css send while saving current designsee prepareModel4Save for implementation for @buttonFontType
+*/
+/*
+& when ( @buttonFontType = google ) {
+@import (css) "@{buttonFontLink}";
+}
+*/
+h2.form-header {
+line-height: 1.618em;
+font-size: 1.714em;
+}
+h2 ~ .form-subHeader {
+line-height: 1.5em;
+font-size: 1.071em;
+}
+.form-header-group {
+text-align: left;
+}
+/*.form-dropdown,
+.form-radio-item,
+.form-checkbox-item,
+.form-radio-other-input,
+.form-checkbox-other-input,*/
+.form-captcha input,
+.form-spinner input,
+.form-error-message {
+padding: 4px 3px 2px 3px;
+}
+.form-header-group {
+font-family: "Josefin Sans", sans-serif;
+}
+.form-section {
+padding: 0px 0px 0px 0px;
+}
+.form-header-group {
+margin: 12px 36px 12px 36px;
+}
+.form-header-group {
+padding: 12px 0px 12px 0px;
+}
+.form-textbox,
+.form-textarea {
+padding: 4px 3px 2px 3px;
+}
+/*@textInputStyle: "ti-default";
+@textInputBorderWidth: -1;
+@textInputBorderStyle: -1;
+@clrTextInputBorder: -1;
+@clrTextInputBg: -1;
+@clrTextInputFont: -1;
+@textInputHeight: -1;
+@textAreaHeight: -1;& when ( @formControlStyle = ti-default ) {}*/
+[data-type="control_dropdown"] .form-input,
+[data-type="control_dropdown"] .form-input-wide {
+width: 150px;
+}
+.form-label {
+font-family: "Josefin Sans", sans-serif;
+}
+li[data-type="control_image"] div {
+text-align: left;
+}
+li[data-type="control_image"] img {
+border: none;
+border-width: 0px !important;
+border-style: solid !important;
+border-color: false !important;
+}
+.form-line-column {
+width: auto;
+}
+.form-line-error {
+overflow: hidden;
+-webkit-transition-property: none;
+-moz-transition-property: none;
+-ms-transition-property: none;
+-o-transition-property: none;
+transition-property: none;
+-webkit-transition-duration: 0.3s;
+-moz-transition-duration: 0.3s;
+-ms-transition-duration: 0.3s;
+-o-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-timing-function: ease;
+-moz-transition-timing-function: ease;
+-ms-transition-timing-function: ease;
+-o-transition-timing-function: ease;
+transition-timing-function: ease;
+background-color: #1ABC9C;
+}
+.form-line-error .form-error-message {
+background-color: #ffffff;
+clear: both;
+float: none;
+}
+.form-line-error .form-error-message .form-error-arrow {
+border-bottom-color: #ffffff;
+}
+.form-line-error input:not(#coupon-input),
+.form-line-error textarea,
+.form-line-error .form-validation-error {
+border: 1px solid #ffffff;
+-webkit-box-shadow: 0 0 3px #ffffff;
+-moz-box-shadow: 0 0 3px #ffffff;
+box-shadow: 0 0 3px #ffffff;
+}
+.ie-8 .form-all {
+margin-top: auto;
+margin-top: initial;
+}
+.ie-8 .form-all:before {
+display: none;
+}
+/* | */
+@media screen and (max-width: 768px) {
+.form-all {
+border: 0;
+width: 100%;
+}
+.form-sub-label-container {
+width: 100%;
+margin: 0;
+}
+.form-input {
+width: 100%;
+}
+.form-label {
+width: 100%!important;
+}
+.form-line {
+padding: 2% 5%;
+margin: 0;
+}
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+width: 100%;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.form-header-group {
+padding: 3% 0!important;
+margin: 5%!important;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+.form-buttons-wrapper {
+margin: 0!important;
+}
+.form-buttons-wrapper button {
+width: 100%;
+}
+table {
+width: 100%!important;
+}
+table td + td {
+padding-left: 3%;
+}
+.form-checkbox-item input,
+.form-radio-item input {
+width: auto;
+}
+}
+/* | *//*__INSPECT_SEPERATOR__*/
+body {
+font-family : 'Josefin Sans', sans-serif;
+font-size : 100%;
+color : #73879C;
+font-size : 16px;
+line-height : 150%;
+-webkit-font-smoothing : antialiased;
+-webkit-text-size-adjust : 100%;
+/*-moz-osx-font-smoothing : grayscale;
+*/
+text-rendering : optimizeLegibility;
+overflow-x : hidden !important;
+height : auto !important;
+}form li {
+list-style : none;
+display : block;
+margin : 15px 0px;
+background : #fff;
+}textarea:focus,
+input[type="text"]:focus,
+input[type="email"]:focus,
+.uneditable-input:focus {
+border-color : none;
+box-shadow : none;
+-webkit-box-shadow : none;
+outline : none;
+}form input[type=text],form input[type=email],form textarea {
+float : right;
+width : 100%!important;
+padding : 10px 10px 10px 15px;
+border : 1px solid #ddd;
+border-radius : 0;
+font-size : 16px;
+float : left;
+outline : none;
+font-weight : 400;
+background-color : #fff;
+box-shadow : none;
+}textarea {
+height : 200px!important;
+resize : none;
+-webkit-appearance : none;
+box-shadow : none!important;
+border-radius : 0!important;
+}.name {
+float : left;
+width : 45%;
+}.email {
+float : right;
+width : 45%;
+}.send {
+margin : 3em 0em;
+text-align : right;
+}.send a {
+background-color : #fff!important;
+border : 1px solid #ccc!important;
+font-size : 1em;
+padding : 0.6em 2.2em;
+color : #333!important;
+border-radius : 5px;
+-webkit-border-radius : 5px;
+-o-border-radius : 5px;
+-moz-border-radius : 5px;
+}.send a:hover {
+background-color : #1abc9c!important;
+border : 1px solid #1abc9c!important;
+color : #fff!important;
+font-size: 16px;
+}
