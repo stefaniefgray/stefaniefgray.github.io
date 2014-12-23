@@ -1,0 +1,371 @@
+/*****************
+     Pepperoni
+ *****************/
+//scale
+$pep5:  1.1;
+$pep6:  1.5;
+$pep7:  1.5;
+$pep8:  1.3;
+$pep9:  1.3;
+$pep10: 1.4;
+$pep11: 1.6;
+
+//position
+$p1-top: 15%;
+$p1-left: -20%;
+$p2-top: -48%;
+$p2-left: 46%;
+$p3-top: 107%;
+$p3-left: 28%;
+$p4-top: 44%;
+$p4-left: 1%;
+$p5-top: 14%;
+$p5-left: 81%;
+$p6-top: 105%;
+$p6-left: 25%;
+$p7-top: 13%;
+$p7-left: 28%;
+$p8-top: 4%;
+$p8-left: 57%;
+$p9-top: 90%;
+$p9-left: 50%;
+$p10-top: 47%;
+$p10-left: 31%;
+$p11-top: -17%;
+$p11-left: 39%;
+
+//rotation origin
+$origin1: 25px 25px;
+$origin2: -25px 45px;
+$origin3: 30px -35px;
+
+/*****************
+     Mushrooms
+ *****************/
+$mush1: -20deg;
+$mush2: -115deg;
+$mush3: 90deg;
+$mush4: -30deg;
+
+$m1-top: -2%;
+$m1-left: 38%;
+$m2-top: 23%;
+$m2-left: -56%;
+$m3-top: 90%;
+$m3-left: 39%;
+$m4-top: 45%;
+$m4-left: 38%;
+
+/*****************
+      Bacon
+ *****************/
+$bacon1: -670deg;
+$bacon2: -800deg;
+$bacon3: 1100deg;
+
+$b1-top: 50%;
+$b1-left: 60%;
+$b2-top: 20%;
+$b2-left: 30%;
+$b3-top: 5%;
+$b3-left: 55%;
+
+//toppings start position
+$startX: 500px;
+
+.crust { 
+	margin: 50px auto;
+	width: 140px;
+	height: 140px;
+	background-color: peru; 
+	border-radius: 50%;
+	position: relative;
+}
+.cheese{
+	width: 120px;
+	height: 120px;
+	background-color: yellow;
+	border-radius: 50%;
+	position: absolute;
+	top:7%;
+	left:7%
+}
+
+/*****************
+ P E P P E R O N I
+ *****************/
+.pepperoni{
+	//background-color: red;
+	border-radius: 50%;
+	position: absolute;
+}
+.pepperoni{
+	width: 10px;
+	height: 10px;
+}
+.pepperoni.one{
+	top:$p1-top;
+	left:$p1-left;
+	transform-origin: $origin1;
+	animation: peponetofive 1.5s 0.5s linear forwards;
+}
+.pepperoni.two{
+	top:$p2-top;
+	left:$p2-left;
+	transform-origin: $origin2;
+	animation: peponetofive 1.5s 0.6s linear forwards;
+}
+.pepperoni.three{
+	top:$p3-top;
+	left:$p3-left;
+	transform-origin: $origin3;
+	animation: peponetofive 1.5s 0.7s linear forwards;
+}
+.pepperoni.four{
+	top:$p4-top;
+	left:$p4-left;
+	transform-origin: $origin1;
+	animation: peponetofive 1.5s 1.5s linear forwards;
+}
+.pepperoni.five{
+	top:$p5-top;
+	left:$p5-left;
+	transform-origin: $origin2;
+	animation: peponetofive 1.5s 1.6s linear forwards;
+}
+.pepperoni.six{
+	top:$p6-top;
+	left:$p6-left;
+	transform-origin: $origin3;
+	animation: pepsix 1.5s 1.8s linear forwards;
+}
+.pepperoni.seven{
+	top:$p7-top;
+	left:$p7-left;
+	transform-origin: $origin1;
+	animation: pepseven 1.5s 2.0s linear forwards;
+}
+.pepperoni.eight{
+	top:$p8-top;
+	left:$p8-left;
+	transform-origin: $origin2;
+	animation: pepeight 1.2s 2.0s linear forwards;
+}
+.pepperoni.nine{
+	top:$p9-top;
+	left:$p9-left;
+	transform-origin: $origin3;
+	animation: pepnine 1.3s 2.0s linear forwards;
+}
+.pepperoni.ten{
+	top:$p10-top;
+	left:$p10-left;
+	transform-origin: $origin1;
+	animation: pepten 1.4s 2.0s linear forwards;
+}
+.pepperoni.eleven{
+	top:$p11-top;
+	left:$p11-left;
+	transform-origin: $origin2;
+	animation: pepeleven 1.5s 2.0s linear forwards;
+}
+
+/*****************
+ M U S H R O O M S
+ *****************/
+.mushroom{
+	position: relative;
+	z-index: 5;
+}
+
+.cap, .stalk{
+	background-color: inherit;
+}
+
+.cap{
+	position: absolute;
+	height: 10px;
+	width: 20px;
+	border-radius: 20px 20px 0 0;
+}
+
+.stalk{
+	position: absolute;
+	height: 20px;
+	width: 10px;
+	top: 1px;
+	left: 5px;
+}
+
+.mushroom.one{
+	top: $m1-top;
+	left: $m1-left;
+	transform: rotate($mush1);
+	animation: shroomone 1.2s 1.0s linear forwards;
+}
+
+.mushroom.two{
+	top: $m2-top;
+	left:$m2-left;
+	transform: rotate($mush2);
+	animation: shroomtwo 1.4s 1.3s linear forwards;
+}
+
+.mushroom.three{
+	top: $m3-top;
+	left: $m3-left;
+	transform: rotate($mush3);
+	animation: shroomthree 0.9s 2.0s linear forwards;
+}
+
+.mushroom.four{
+	top: $m4-top;
+	left: $m4-left;
+	transform: rotate($mush4);
+	animation: shroomfour 1.5s 1.5s linear forwards;
+}
+
+/*****************
+	B A C O N  
+ *****************/
+
+.bacon, .crease{
+	transform:  skewY(15deg); 
+}
+
+.bacon{
+	background-color:#AE3D37;
+	width: 8px;
+	height: 20px;
+	position: relative;
+	
+}
+
+.crease{
+	background-color:#DC8672;
+	width: 3px;
+	height: 20px;
+	position: absolute;
+	left: 32%; 
+}
+
+.bacon.one{
+	top: $b1-top;
+	left:$b1-left;
+	opacity: 0;
+	transform: rotate($bacon1);
+	animation: baconone 1.5s 3.0s linear forwards;
+}
+
+.bacon.two{
+	top: $b2-top;
+	left:$b2-left;
+	opacity: 0;
+	transform: rotate($bacon2);
+	animation: bacontwo 1.5s 3.0s linear forwards;
+}
+
+.bacon.three{
+	top: $b3-top;
+	left:$b3-left;
+	transform: rotate($bacon3);
+	opacity: 0;
+	animation: baconthree 1.5s 3.0s linear forwards;
+}
+
+
+/***********************************************
+
+	Animations!!!!
+
+*************************************************/
+
+// Scale and Rotate Pepperoni
+@mixin scalePep($scale,$translate) {
+	0% {
+		transform: translateX($translate) scale($scale) rotate(110deg);
+		background-color: transparent;
+	}
+	100% {
+		background-color: red;
+		transform: translateX(0) scale($scale) rotate(500deg);
+	}
+}
+
+@keyframes peponetofive {
+	@include scalePep(1.0,$startX);
+}
+@keyframes pepsix {
+	@include scalePep($pep6,$startX);
+}
+@keyframes pepseven {
+	@include scalePep($pep7,$startX);
+}
+@keyframes pepeight {
+	@include scalePep($pep8,$startX);
+}
+@keyframes pepnine {
+	@include scalePep($pep9,$startX);
+}
+@keyframes pepten {
+	@include scalePep($pep10,$startX);
+}
+@keyframes pepeleven {
+	@include scalePep($pep11,$startX);
+}
+
+
+// rotate and translate the mushrooms
+@mixin rotateShrooms($rotate, $translate, $top, $left) {
+	0% {
+		transform: translateX($translate) rotate(0deg);
+		background-color: transparent;
+	}
+	100% {
+		transform: translateX(0) rotate($rotate);
+		top: $top;
+		left: $left;
+		background-color: tan;
+	}
+}
+
+@keyframes shroomone {
+	@include rotateShrooms($mush1,$startX,$m1-top,$m1-left);
+}
+@keyframes shroomtwo {
+	@include rotateShrooms($mush2,$startX,$m2-top,$m2-left);
+}
+@keyframes shroomthree {
+	@include rotateShrooms($mush3,$startX,$m3-top,$m3-left);
+}
+@keyframes shroomfour {
+	@include rotateShrooms($mush4,$startX,$m4-top,$m4-left);
+}
+
+// Rotate & Translate The Bacon
+@mixin rotateBacon($rotate, $translate, $top, $left) {
+	0% {
+		transform: translateX($translate) rotate(0deg);
+		opacity: 0;
+	}
+	100% {
+		transform: translateX(0) rotate($rotate);
+		top: $top;
+		left: $left;
+		opacity: 1;
+		
+	}
+}
+
+@keyframes baconone {
+	@include rotateBacon($bacon1, $startX,$b1-top,$b1-left)
+}
+
+@keyframes bacontwo {
+	@include rotateBacon($bacon2, $startX,$b2-top,$b2-left)
+}
+
+@keyframes baconthree {
+	@include rotateBacon($bacon3, $startX,$b3-top,$b3-left)
+}
+

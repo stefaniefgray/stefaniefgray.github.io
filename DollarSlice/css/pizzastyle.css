@@ -1,0 +1,80 @@
+.header {
+  position: relative;
+}
+
+.header h1{
+  color:#E00D00;
+  font-size:7vw;
+  margin: 0 auto;
+  margin-top: 1.5em;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800;
+  letter-spacing:1px;
+  letter-spacing: .05em;
+  text-shadow: 
+  4px 4px 0px #d5d5d5, 
+  7px 7px 0px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  color: #E00D00;
+  font-size: 2em;
+  margin-top:5px;
+  margin-right:20px;
+  margin-left:20px;
+  margin-bottom: 5px;
+  padding: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:800;
+  letter-spacing:1px;
+}
+
+.header img{
+  position: relative;
+  height: 2em;
+  width: 2em;
+}
+
+.main {
+  position: relative;
+  display: block;
+  margin-top: 10em;
+  padding-top: 5em;
+  margin: 0 auto;
+  height: 500px;
+  width: 50%;
+}
+
+#phone {
+  position: relative;
+  z-index: 100;
+}
+
+#redbar {
+  position: absolute;
+  background-color: #E00D00;
+  background-image: url("images/pizzapattern.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  display: block;
+  height:2em;
+  width:100%;
+  margin-top: 2em;
+}
+
+#pizzacircle {
+  position: relative;
+  background-color: blue;
+  margin: auto;
+  padding: 1em;
+  display: block;
+  border-radius: 50%;
+  width: 5em;
+  height: 5em; 
+  border: 5px yellow;
+}
