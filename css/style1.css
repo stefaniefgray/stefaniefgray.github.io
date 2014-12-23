@@ -695,14 +695,15 @@ body {
 
 .brows_button_4 a{
 	border:1px solid #ccc!important;
-	/*background-color: #6687a9;*/
+	background-color: #6687a9;
 	font-size: 1em;
 	padding: 0.6em 2.2em;
-	color:#555!important;
+	color:#fff!important;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-o-border-radius: 5px;
 	-moz-border-radius: 5px;
+	margin: 0 auto;
 	}
 
 .brows_button_4 a:hover {
@@ -736,7 +737,7 @@ body {
 .para{
 	font-size: 20px!important;
 	color:#fff;
-	padding:3em 0em 4em 0em;
+	padding:1em 0em 1em 0em;
 	text-align: center;
 	}
 
