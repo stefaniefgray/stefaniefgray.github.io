@@ -46,9 +46,10 @@ h1 {
   width: 50%;
 }
 
-#phone {
-  position: relative;
-  z-index: 100;
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 #redbar {
