@@ -109,7 +109,7 @@
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	padding: 1.2em 0em;
+	padding: 0em 0em;
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
