@@ -759,11 +759,21 @@ body {
 	}
 
 .para{
-	font-size: 20px!important;
+	font-size: 1.5em!important;
 	color:#fff;
 	padding:1em 0em 1em 0em;
 	text-align: center;
+	line-height: 1.25em;
 	}
+
+.skills-list{
+	font-size: 1.5em!important;
+	color:#fff;
+	padding:1em 0em 1em 0em;
+	text-align: center;
+	line-height: 1.25em;
+	}
+
 
 .centertxt {
 	width: 95%;
@@ -1195,6 +1205,7 @@ footer ul.contacts li {
 	}
 
 .footer-bottom {
+	background: #fff!important;
 	color: #707E8C;
 	margin:0!important;
 	display: block;
@@ -1280,7 +1291,8 @@ footer ul.contacts li {
 		margin: 0 auto;
 		padding: 2%;
 	}
-		.group_2_items {
+
+	.group_2_items {
 	padding-top: 0px;
 	}
 
